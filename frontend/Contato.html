@@ -246,9 +246,37 @@ main {
 }
 
 
+</style>
 
-
-
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
 </style>
 <body>
   
@@ -285,29 +313,31 @@ main {
             
           <ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Estudantes</a></li>
+            <li><a href="estudantes.html">Estudantes</a></li>
             <li><a href="Contato.html">Contato</a></li>
             <li><a href="#">Foto</a></li>
             <li><a href="Aluno.html">Aluno</a></li>
-            <li><a href="#">Area </a></li>
+            <li><a href="Login/index.html">Area </a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <section>
-          <h3>Sebastien Lionel Lubin</h2>
-          <p>Bem-vindo ao meu site!</p>
-        </section>
- 
-        <section>
-            <h3>Minha seção principal</h2>
-            <p>Bem-vindo ao meu site!</p>
-          </section>
-      
-          <section>
-            <h3>Minha seção principal</h2>
-            <p>Bem-vindo ao meu site!</p>
-          </section>
+        <h1>Entre em contato</h1>
+  <form action="enviar_email.php" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    
+    <label for="email">E-mail:</label>
+    <input type="text" id="email" name="email" required>
+    
+    <label for="assunto">Assunto:</label>
+    <input type="text" id="assunto" name="assunto" required>
+    
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" required></textarea>
+    
+    <input type="submit" value="Enviar">
+  </form>
       </main>
       <footer>
         <p> &copy; Site dos estudantes haitianos da UFFS desenvolvido por Sebastien Lionel lubin </p>

@@ -95,17 +95,18 @@ img{
 }
 
 main {
-  padding: 10px;
+  padding: 35px;
 }
 
 section {
   background-color: #fff;
   width: 230px;
-  height: 430px;
-  padding: 20px;
+  height: 450px;
+  padding: 10px;
   margin: 60px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 15px solid #010a26;
+  flex: 0.2;
+ 
 }
 
 footer {
@@ -232,6 +233,22 @@ h3{
  .container1 .elemento1{
   display: none;
 }
+section {
+  background-color: #fff;
+  width: 500px;
+  height: 190px;
+  padding: 8px;
+  margin: 1px;
+  border: 1px solid #050f9d;
+  flex-basis: 100%;
+ 
+}
+
+main .container12 section img{
+  width: 100%;
+  height: 100px;
+  margin: 1px 0;
+ }
 
 main {
   
@@ -239,10 +256,78 @@ main {
 
 }
 
+.container12 section h4{
+    background-color: #0b3c80;
+    color: rgb(252, 252, 252);
+    align-items: center;
+    padding: 01px;
+    width: 100%;
+    height: 15px;
+    
+ }
+ main section h4{
+    background-color: #02429c;
+    color: rgb(252, 252, 252);
+    align-items: center;
+    text-align: center;
+    padding: 01px;
+    margin: auto;
+   
+ }
+
 .container1 h3{
   margin-left: 75px;
  }
 
+ .container12 {
+  flex-direction: row;
+ 
+}
+section + section {
+  margin-left: 10px;
+}
+section {
+  font-size: small;
+}
+
+body{
+  font-size: small;
+}
+
+main h1{
+  margin-left: 140px;
+  color: #02429c;
+}
+
+
+}
+
+
+ main section img{
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+ }
+ main section h4{
+    background-color: #02429c;
+    color: rgb(252, 252, 252);
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+    margin: auto;
+   
+ }
+ 
+ .container12 {
+  display: flex;
+}
+section + section {
+  margin-left: 10px;
+}
+h1{
+  
+  margin-left: 490px;
+  color: #02429c;
 }
 
 
@@ -284,30 +369,173 @@ main {
         <nav>
             
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Estudantes</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="estudantes.html">Estudantes</a></li>
             <li><a href="Contato.html">Contato</a></li>
             <li><a href="#">Foto</a></li>
-            <li><a href="Aluno.html">Aluno</a></li>
-            <li><a href="#">Area </a></li>
+            <li><a href="Aluno.html">Alunos</a></li>
+            <li><a href="Login/index.html">Area </a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <section>
-          <h3>Sebastien Lionel Lubin</h2>
-          <p>Bem-vindo ao meu site!</p>
-        </section>
- 
-        <section>
-            <h3>Minha seção principal</h2>
-            <p>Bem-vindo ao meu site!</p>
-          </section>
-      
+        <h1>Alunos</h1>
+        
+        <div class="container12">
           <section>
-            <h3>Minha seção principal</h2>
-            <p>Bem-vindo ao meu site!</p>
+            <h4> Bachelor Louis </h4>
+            <img src="fotos/bachelor.jpg" alt="Logo do meu site" > 
+            <p>Formado em</p>
+            <p>Agronomia</p>
+          </section> 
+          <section>
+            <h4> Abdias Revole </h4>
+            <img src="fotos/abdias.jpg" alt="Logo do meu site" > 
+            <p>Formado em</p>
+            <p>Agronomia</p>
           </section>
+        <section>
+          <h4> Richardson Damis </h4>
+          <img src="fotos/Richard.jpg" alt="Logo do meu site" > 
+          <p>Formado em</p>
+          <p>Agronomia</p>
+        </section>
+
+      </div>
+      <div class="container12">
+      <section>
+        <h4> Wedson Vilcent</h4>
+        <img src="fotos/weddy.jpg" alt="Logo do meu site" > 
+        <p>Formado em</p>
+        <p>Matematica</p>
+      </section>
+      <section>
+        <h4> Jean Ronald Velus </h4>
+        <img src="fotos/jean&Billy.jpg" alt="Logo do meu site" > 
+        <p>Formado em</p>
+        <p>Matematica</p>
+      </section>
+      <section>
+        <h4> Billy Bertrand</h4>
+        <img src="fotos/bili.jpg" alt="Logo do meu site" > 
+        <p>Formado em</p>
+        <p>Matematica</p>
+      </section>
+
+      </div>
+        <div class="container12">
+        <section>
+          <h4> Eddy Reginald Celestin </h4>
+          <img src="fotos/eddy.jpg" alt="Logo do meu site" > 
+          <p>Formado em</p>
+          <p> Ciências Sociais</p>
+        </section>
+        <section>
+          <h4> Jacquet Leme </h4>
+          <img src="fotos/jimmy.jpg" alt="Logo do meu site" > 
+          <p>Formado em</p>
+          <p> Administração </p>
+        </section>
+        </section>
+        <section>
+          <h4> Jod Fedlet Pierre </h4>
+          <img src="fotos/jod.jpg" alt="Logo do meu site" > 
+          <p>Formado em</p>
+          <p>Ciência da Computação</p>
+        </section>
+        
+ 
+      </div>
+        <div class="container12">
+        <section>
+          <h4> Sebastien Lionel Lubin </h4>
+          <img src="fotos/lubin.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        <section>
+          <h4> Jacquet Leme </h4>
+          <img src="fotos/jacquet.jpeg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        <section>
+          <h4> Angemydelson Saint-Bert </h4>
+          <img src="fotos/kerby.jpeg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        
+
+   </div>
+        <div class="container12">
+        <section>
+          <h4> Romane Demosthene </h4>
+          <img src="fotos/Romane.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        <section>
+          <h4> Obenson Maurice </h4>
+          <img src="fotos/obenson.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        <section>
+          <h4> Daniel Pierrelus</h4>
+          <img src="fotos/daniel.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        
+ 
+      </div>
+           </div>
+        <div class="container12">
+        <section>
+          <h4> Angemydelson Saintr-Bert </h4>
+          <img src="fotos/angemy1.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        <section>
+          <h4> Jeffley Garçon </h4>
+          <img src="fotos/jeffley.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        <section>
+          <h4> Wilsony Louis </h4>
+          <img src="fotos/sony.jpg" alt="Logo do meu site" > 
+          <p>Cursando</p>
+          <p>Ciência da Computação</p>
+        </section>
+        
+ 
+      </div>
+    </div>
+    <div class="container12">
+      <section>
+        <h4> Loude Djema Simé </h4>
+        <img src="fotos/djema.jpg" alt="Logo do meu site" > 
+        <p>Cursando</p>
+        <p>Ciência da Computação</p>
+      </section>
+    <section>
+      <h4> Ashley Saint Louis  </h4>
+      <img src="fotos/Ashley.jpg" alt="Logo do meu site" > 
+      <p>Cursando</p>
+      <p>Ciência da Computação</p>
+    </section>
+    <section>
+      <h4> Lindy Saphira Elmius  </h4>
+      <img src="fotos/lindy.jpeg" alt="Logo do meu site" > 
+      <p>Cursando</p>
+      <p>Ciência da Computação</p>
+    </section>
+    
+
+  </div>
       </main>
       <footer>
         <p> &copy; Site dos estudantes haitianos da UFFS desenvolvido por Sebastien Lionel lubin </p>
